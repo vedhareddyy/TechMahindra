@@ -1,0 +1,165 @@
+/* Navigation Bar */
+.navbar {
+  background-color: #ff6600;
+  padding: 12px 0;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 15px;
+  transition: background 0.3s, transform 0.2s;
+  border-radius: 8px;
+}
+
+.navbar ul li a:hover {
+  background: #e65c00;
+  transform: scale(1.05);
+}
+
+/* Customer Page Styling */
+.customer-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+/* Title */
+h1 {
+  font-size: 30px;
+  margin-bottom: 25px;
+  font-weight: bold;
+  color: #ff6600;
+  text-transform: uppercase;
+}
+
+/* Food List */
+.food-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Food Card */
+.food-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  width: 220px;
+}
+
+.food-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Food Image */
+.food-card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.food-card:hover img {
+  transform: scale(1.05);
+}
+
+/* Food Info */
+.food-info {
+  text-align: left;
+  padding: 8px 0;
+}
+
+.food-info h2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.food-info p {
+  font-size: 13px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+/* Price Styling */
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #27ae60;
+}
+
+/* Quantity Controls */
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 5px;
+}
+
+.quantity-controls button {
+  background: #ff6600;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.quantity-controls button:hover {
+  background: #e65c00;
+  transform: scale(1.1);
+}
+
+/* Checkout Section */
+.checkout {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.checkout button {
+  background: #27ae60;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: background 0.3s ease-in-out, transform 0.2s;
+}
+
+.checkout button:hover {
+  background: #219150;
+  transform: scale(1.05);
+}
+
+/* Grand Total */
+.grand-total {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+}
