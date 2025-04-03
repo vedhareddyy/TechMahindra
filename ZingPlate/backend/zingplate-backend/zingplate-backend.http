@@ -1,6 +1,0 @@
-@zingplate_backend_HostAddress = http://localhost:5261
-
-GET {{zingplate_backend_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
